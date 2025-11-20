@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import "./styles/tailwind.css";
+import logo from "./assets/1685266102882.jfif";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+      <div className="flex flex-col gap-2">
+        <div className="mb-5 flex flex-col gap-3">
+          <img src={logo} className="w-1/5 rounded-full block m-auto" />
+          <h1>@spanishgitana</h1>
+        </div>
+
+        <a
+          href="https://open.spotify.com/show/4KYtGSXTcR9dj22kuNy1Yg?si=t8pDJoLUQIKBT35ejbh_Ow&nd=1&dlsi=78633e8d365447ed"
+          target="_blank"
+        >
+          Podcast on Spotify
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+
+        <a
+          href="https://www.youtube.com/channel/UCtCqI5Q9Jyn5MtU_Oqo2e6g"
+          target="_blank"
+        >
+          YouTube
+        </a>
+
+        <a
+          href="https://slow-and-clear-spanish-pod.beehiiv.com/"
+          target="_blank"
+        >
+          Newsletter
+        </a>
+
+        <a
+          href="https://spanishgitana.thinkific.com/courses/master-spanish-verbs"
+          target="_blank"
+        >
+          Master Spanish Verbs - course
+        </a>
+
+        <a
+          href="https://spanishgitana.thinkific.com/courses/spanish-from-scratch"
+          target="_blank"
+        >
+          Spanish from Scratch - course
+        </a>
+
+        <a href="https://www.instagram.com/spanishgitana/" target="_blank">
+          Instagram
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
