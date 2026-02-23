@@ -32,7 +32,10 @@ function App() {
           target="_blank"
           className="link"
         >
-          Newsletter
+          Newsletter{" "}
+          <span style={{ fontSize: "13px" }}>
+            (summary of each podcast episode, vocabulary list & extra content)
+          </span>
         </a>
 
         <a
