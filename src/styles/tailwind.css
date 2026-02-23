@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .link {
-  @apply bg-white px-1 py-3 rounded-lg transition-all duration-200 ease-in-out hover:scale-105;
+  @apply bg-white dark:text-black px-1 py-3 rounded-lg transition-all duration-200 ease-in-out hover:scale-105;
 }

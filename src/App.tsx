@@ -8,7 +8,7 @@ function App() {
       <div className="flex flex-col gap-2">
         <div className="mb-5 flex flex-col gap-3">
           <img src={logo} className="w-1/5 rounded-full block m-auto" />
-          <h1>@spanishgitana</h1>
+          <h1 className="dark:text-white">@spanishgitana</h1>
         </div>
 
         <a
