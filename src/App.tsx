@@ -17,14 +17,22 @@ function App() {
           target="_blank"
           className="link"
         >
-          Slow & Clear Spanish - spotify
+          Podcast on spotify
         </a>
         <a
           href="https://www.youtube.com/channel/UCtCqI5Q9Jyn5MtU_Oqo2e6g"
           target="_blank"
           className="link"
         >
-          Slow & Clear Spanish - youtube
+          Podcast on youtube
+        </a>
+
+        <a
+          href="https://slow-and-clear-spanish-pod.beehiiv.com/"
+          target="_blank"
+          className="link"
+        >
+          Podcast transcriptions with vocabulary lists
         </a>
 
         <a
